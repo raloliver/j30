@@ -7,18 +7,24 @@ DÚVIDAS
 2: DOMStringMap prevê a propriedade dataset.
 2: Usar dataset para ler dados é mais lento do que quando usa-se getAttribute().
 2: https://youtu.be/On_WyUB1gOk
-- Ler mais sobre a propriedade "content" (content: attr(data-*))
+EX: Ler mais sobre a propriedade "content" (content: attr(data-*))
 
-- Qual a diferença em const e var no JavaScript?
-- O que são esses métodos 1:.currentTime, 1.1.:.play, .forEach ()
+- O que é e como funciona o método forEach()?
+
+- O que são esses métodos 1:.currentTime, 1.1.:.play.
 1: https://www.schoolofnet.com/curso-multimedia/ (recomendasse o formato .mp4)
 1: currentTime: When setting this property, the playback will jump to the specified position (seconds).
-1.1.: play: The play() method starts playing the current audio or video. / Use the pause() method to pause the current audio/video.
+1.1.: play: The play() method starts playing the current audio or video. / Use the pause() method to pause the current audio/video. / Use the load() method to stop the current audio/video. The volume property sets or returns the current volume of the audio/video (value = 0|1). / he muted attribute is a boolean attribute. http://bleedinghtml5.appspot.com
 Tag de video (source dentro da tag video) com os seguintes atributos controls, autoplay, muted, poster (miniatura do vídeo)
+- webkitEnterFullScreen: funciona pra todos?
+EX: crie um player de video completo apenas com JS.
 
 - Como funcionam "arrow functions" no ES6?
+
 - Como funcionam "TransitionEvent"?
+
 - Let, Var e Const, o que são e quais as diferenças? Ofereça exemplos práticos.
+
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira?
 
 MAIS DÚVIDAS
@@ -29,3 +35,5 @@ MAIS DÚVIDAS
 - Qual a representação do número 7 em binário?
 - Qual a diferença de == para ===?
 - Qual a diferença de microservices para monolítico?
+
+Lesson 2: 02 - CSS + JS Clock
