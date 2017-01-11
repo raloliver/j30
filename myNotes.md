@@ -23,9 +23,9 @@ EX: crie um player de video completo apenas com JS.
 
 - Como funcionam "TransitionEvent"?
 
-- Let, Var e Const, o que são e quais as diferenças? Ofereça exemplos práticos.
+- Let, Var e Const, o que são e quais as diferenças? *Ofereça exemplos práticos.
 
-- Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira?
+- Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
 
 MAIS DÚVIDAS
 - Qual a diferença de uma classe e uma instância?
@@ -37,3 +37,10 @@ MAIS DÚVIDAS
 - Qual a diferença de microservices para monolítico?
 
 Lesson 2: 02 - CSS + JS Clock
+https://unsplash.it/1500/1000?image=881&blur=50
+
+- Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
+- *Criar um relógio analógico tipo do Pebble com temperatura e data. 
+- Como converter médidas, todos os tipos possíveis. *Ofereça exemplos práticos.
+
+*codepen
