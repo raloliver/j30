@@ -10,6 +10,7 @@ DÚVIDAS
 EX: Ler mais sobre a propriedade "content" (content: attr(data-*))
 
 - O que é e como funciona o método forEach()?
+Geralmente usado num NodeList de um querySelectorAll.
 
 - O que são esses métodos 1:.currentTime, 1.1.:.play.
 1: https://www.schoolofnet.com/curso-multimedia/ (recomendasse o formato .mp4)
@@ -42,5 +43,21 @@ https://unsplash.it/1500/1000?image=881&blur=50
 - Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
 - *Criar um relógio analógico tipo do Pebble com temperatura e data. 
 - Como converter médidas, todos os tipos possíveis. *Ofereça exemplos práticos.
+
+Lesson 3: 03 - Playing with CSS Variables and JS
+
+- Update CSS Variables with JS with SASS is not possible.
+
+- Input type color and range.
+
+- Variáveis no CSS são definidas com dash-dash (--) e são invocadas através do valor "var(--variable)". *Ofereça exemplos práticos.
+Tenha atenção ao "CSS cascade: lower scope."
+
+- filter: quais os métodos e valores?
+
+- Qual a diferença entre NodeList e Array?
+
+- Porque começar com :root, porque não body?
+The :root selector matches the document's root element. In HTML, the root element is always the html element.
 
 *codepen
