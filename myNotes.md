@@ -61,3 +61,25 @@ Tenha atenção ao "CSS cascade: lower scope."
 The :root selector matches the document's root element. In HTML, the root element is always the html element.
 
 *codepen
+
+Lesson 4: 04 - Array Cardio Day 1
+
+ARRAY PROTOTYPE METHODS
+Methods: filter, map, sort and reduce. *Ofereça exemplos de como usar "Arrows functions" with this methods.
+filter: filtrar dados com base no valor de uma propriedade
+
+map: how to use backtick and template strings?
+
+sort: funciona com 1 e -1 para ordenar determinada lista. Como usar operadores ternários com este método?
+Como ordenar uma lista em ordem alfatébica pelo sobrenome?
+
+reduce: estude mais exemplos sobre esse incrível filtro.
+
+Como transformar um NodeList num Array?
+- Array.from() //ver como fazer isso com ES6 spread.
+
+Como funciona o método includes()?
+
+Como usar const [arg1, arg2]?
+
+- console.table() //show data on table
