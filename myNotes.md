@@ -75,6 +75,7 @@ sort: funciona com 1 e -1 para ordenar determinada lista. Como usar operadores t
 Como ordenar uma lista em ordem alfatébica pelo sobrenome?
 
 reduce: estude mais exemplos sobre esse incrível filtro.
+- https://egghead.io/courses/reduce-data-with-javascript
 
 Como transformar um NodeList num Array?
 - Array.from() //ver como fazer isso com ES6 spread.
@@ -84,3 +85,14 @@ Como funciona o método includes()?
 Como usar const [arg1, arg2]?
 
 - console.table() //show data on table
+
+Lesson 5: 05 - Flex Panels Image (flexbox.io)
+- flex: 1; // flex: 1 0 auto;
+- justify-content: center;
+- align-items: center;
+- display: flex;
+- flex-direction: column;
+- transform: translateY(100%);
+
+$this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
+.addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.

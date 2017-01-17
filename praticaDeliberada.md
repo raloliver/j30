@@ -1,0 +1,19 @@
+PLAYGROUND
+- EX: crie um player de video completo apenas com JS.
+- *Criar um relógio analógico tipo do Pebble com temperatura e data. 
+- Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
+- Let, Var e Const, o que são e quais as diferenças? *Ofereça exemplos práticos.
+- Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
+- Methods: filter, map, sort and reduce. *Ofereça exemplos de como usar "Arrows functions" with this methods.
+$this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
+.addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
+
+REVISÕES
+- NinjaJS: todas as revisões de aula.
+
+G SUITE
+- Youtube/Drive API: criar um player de vídeo que usa a autorização do Google para Login e acesso aos arquivos (ou até mesmo a conta do Youtube) com a opção de criar um vídeo apenas incluindo o link do arquivo, ou apenas selecionando o arquivo e gerar um iframe para embed externo sem exibir a logo do Youtube.
+- Criar um gerenciador de arquivos usando a API do Google Drive, disponibilizando arquivos enviado ao google drive apenas para determinados usuários logados e com a limitação de 5 downloads. Além disso, deixar a opção de conectar apenas uma conta, mas se pagar, pode conectar mais contas e somar o volume de dados de todas as contas, com um único gerenciadouro de arquivos.
+- Cópia do Pluto: usando a API do youtube, criar um webapp que consome os dados do youtube e agenda os horarios das playlist e de determinado canal. Mais uma vez pedindo altorização do client para logar com a conta do youtube, ver canais inscritos, e acessar a playlist desses canais. Com base em determinada palavra ou playlist, os vídeos são exibidos numa grande, como na grade da Sky.
+- Extensão do Google Chorme (REST/Google): com opção de uso offline. Criar algo parecido com a planilhas dos lovepoints ou algo que supra esse necessidade de acompanhar tarefas remotamente.
+- hubebook (wordprees/rest/mobile)
