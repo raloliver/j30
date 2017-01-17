@@ -32,6 +32,7 @@ MAIS DÚVIDAS
 - Qual a diferença de uma classe e uma instância?
 - O que é uma promisse?
 - Qual o método javascript para contar quantos caracteres tem numa string?
+.lenght
 - Qual a diferença entre null e undefined?
 - Qual a representação do número 7 em binário?
 - Qual a diferença de == para ===?
