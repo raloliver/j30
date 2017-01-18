@@ -10,6 +10,10 @@ $this.classList.toogle('active'); // Pratica deliberada e mais métodos de class
 
 REVISÕES
 - NinjaJS: todas as revisões de aula.
+- Service Workers: que porra é essa? 
+- Push notification com o site fechado? 
+- Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
+- Como acessar o hardware do aparelho usando apenas javascript.
 
 G SUITE
 - Youtube/Drive API: criar um player de vídeo que usa a autorização do Google para Login e acesso aos arquivos (ou até mesmo a conta do Youtube) com a opção de criar um vídeo apenas incluindo o link do arquivo, ou apenas selecionando o arquivo e gerar um iframe para embed externo sem exibir a logo do Youtube.
