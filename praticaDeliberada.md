@@ -1,5 +1,5 @@
 PLAYGROUND
-- EX: crie um player de video completo apenas com JS.
+- EX: crie um player de video completo apenas com JS (como um log de play/pause/stop e integrado ao Google Drive).
 - *Criar um relógio analógico tipo do Pebble com temperatura e data. 
 - Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
 - Let, Var e Const, o que são e quais as diferenças? *Ofereça exemplos práticos.
@@ -7,13 +7,30 @@ PLAYGROUND
 - Methods: filter, map, sort and reduce. *Ofereça exemplos de como usar "Arrows functions" with this methods.
 $this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
 .addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
+- localStorage.setItem(id): verificar mais métodos do localStorage
+- Converter timing do vídeo de segundo para hh:mm:ss e do volume para %.
 
 REVISÕES
 - NinjaJS: todas as revisões de aula.
+- Video HTML5: 07_events
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 
 - Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
 - Como acessar o hardware do aparelho usando apenas javascript.
+- Qual a diferença de uma classe e uma instância?
+- O que é uma promisse?
+- Qual o método javascript para contar quantos caracteres tem numa string?
+.lenght
+- Qual a diferença entre null e undefined?
+O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
+- Qual a representação do número 7 em binário?
+- Qual a diferença de == para ===?
+- Qual a diferença de microservices para monolítico?
+
+- webkitEnterFullScreen: funciona pra todos?
+- .push é usado apenas em valores do tipo array?
+- Como funciona o "for" no JS?
+- .innerHTML ainda deve ser utilizado?
 
 G SUITE
 - Youtube/Drive API: criar um player de vídeo que usa a autorização do Google para Login e acesso aos arquivos (ou até mesmo a conta do Youtube) com a opção de criar um vídeo apenas incluindo o link do arquivo, ou apenas selecionando o arquivo e gerar um iframe para embed externo sem exibir a logo do Youtube.
