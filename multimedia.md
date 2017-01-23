@@ -12,9 +12,18 @@ TODOS ESSES DADOS PODEM SER SALVOS NUM BANCO DE DADOS E ISSO DEVE GERAR ESTATÍT
 .onabort: coleta o evento de stop (abort) do vídeo
 .onvolumechange: coleta o evento de alteração do volume
 .oncanplay: coleta o momento em que o vídeo é carregado
+.playbackRate: aumenta ou diminui a velocidade do vídeo
 
 localStorage.setItem(id) and localStorage.getItem(id)
 JSON.stringify: transforma o objeto numa string, e prepara os dados para serem salvos.
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 JSON.parse: transforma string em objeto (o inverso do stringify)
 
+Com audio é bem similar (inclusive é possível rodar um .mp4) e até mesmo deixar o audio oculto sem os controls, de resto é muito parecido com o vídeo.
+
+YOUTUBE
+Playlist personalizada: 
+https://www.youtube.com/embed/UQL3_SoExsY?listType=playlist&playlist=K-MuDP5Ttz0,qr1TcBXTTdI
+
+Busca personalizada:
+https://www.youtube.com/embed?listType=search&list=string

@@ -36,12 +36,14 @@ const regex = new RegExp(wordToMatch, 'gi');
 O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
 - Qual a representação do número 7 em binário?
 - Qual a diferença de == para ===?
+== compara valor, e === compara valor e tipo.
 - Qual a diferença de microservices para monolítico?
 
 - webkitEnterFullScreen: funciona pra todos?
 - .push é usado apenas em valores do tipo array?
 - Como funciona o "for" no JS?
 - .innerHTML ainda deve ser utilizado?
+- Como funciona o onkeyup dentro de um input?
 
 G SUITE
 - Youtube/Drive API: criar um player de vídeo que usa a autorização do Google para Login e acesso aos arquivos (ou até mesmo a conta do Youtube) com a opção de criar um vídeo apenas incluindo o link do arquivo, ou apenas selecionando o arquivo e gerar um iframe para embed externo sem exibir a logo do Youtube.
