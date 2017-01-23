@@ -13,6 +13,11 @@ $this.classList.toogle('active'); // Pratica deliberada e mais métodos de class
 REVISÕES
 - NinjaJS: todas as revisões de aula.
 - Video HTML5: 07_events
+- Todos os tipos de Ordenação de lista em javascript
+- Todos os tipos de Validação de formulário em javascript
+- Math: treinar mais esse método.
+- append e after: Ver mais sobre esses métodos.
+- Operador Condicional (ternário): praticar.
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 
 - Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
