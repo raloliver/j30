@@ -40,7 +40,7 @@ BATTERY STATUS
 - Allows a web page to access batery information from desktop and mobile devices.
 - navigator.getBattery() and addEventListener('levelchange')
 
-PROGRESSIVE WEB APPS
+PROGRESSIVE WEB APPS (https://goo.gl/kIBaCD)
 - service workers
 - background sync
 - push notifications

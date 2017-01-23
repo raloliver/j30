@@ -1,6 +1,8 @@
-PLAYGROUND
+PLAYGROUND (usar Skeuomorphism)
 - EX: crie um player de video completo apenas com JS (como um log de play/pause/stop e integrado ao Google Drive).
-- *Criar um relógio analógico tipo do Pebble com temperatura e data. 
+- Criar um relógio analógico tipo do Pebble com temperatura e data. 
+- Crie um mockup de cartão de crédito igualzinho ao um origianl, só que com um validador genérico e os locais de cada item, trocando a depender da bandeira.
+- Pegue um JSON de uma lib qualquer e filtro diversos produtos de diversas categorias (use as lojas de SAJ)
 - Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
 - Let, Var e Const, o que são e quais as diferenças? *Ofereça exemplos práticos.
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
@@ -17,6 +19,10 @@ REVISÕES
 - Todos os tipos de Validação de formulário em javascript
 - Math: treinar mais esse método.
 - append e after: Ver mais sobre esses métodos.
+- Methods: filter, map, sort and reduce. O que o ".join" faz no ".map"?
+- Como colocar uma variável numa experessão regular?
+const regex = new RegExp(wordToMatch, 'gi');
+- Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 

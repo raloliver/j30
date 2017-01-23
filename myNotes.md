@@ -79,4 +79,14 @@ Lesson 5: 05 - Flex Panels Image (flexbox.io)
 $this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
 .addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
 
-Lesson 6: 
+Lesson 6: 06 - Ajax Type Ahead
+
+fetch: nem web API for browser. This methor returns a promisse. 
+fetch(callback).then() // quais as outras propriedades desse método?
+
+Caso queira manter as constantes (const) você pode usar o .push e não apenas dar outro valor a variável.
+No ES6 é possível, através spread in to a function ou num push por exemplo.
+
+Novamente vemos o uso do filter aqui (aprenda mais sobre essa parada por favor).
+.addEventListener('change') || ('keyup'); // no input, ao trocar o valor, do it something!!!
+Listener: get your data first!!!
