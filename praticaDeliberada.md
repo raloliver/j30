@@ -38,6 +38,17 @@ O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de 
 - Qual a diferença de == para ===?
 == compara valor, e === compara valor e tipo.
 - Qual a diferença de microservices para monolítico?
+- Porque usar o += pra fazer append?
+Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
+- Convert Celsius to Fahrenheit (freecodecamp)?
+
+function convertToF(celsius) {
+  var fahrenheit;
+  fahrenheit = celsius * 9/5 + 32;
+  fahrenheit = Math.floor(fahrenheit);
+  return fahrenheit;
+}
+convertToF(30);
 
 - webkitEnterFullScreen: funciona pra todos?
 - .push é usado apenas em valores do tipo array?
