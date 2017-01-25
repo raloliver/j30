@@ -29,6 +29,8 @@ ex: +'israel' r: NaN (number)
 a++     //is the equivalent of i = i + 1;
 b--     //is the equivalent of i = i - 1;
 
-#10 - Estrutura Léxica (https://goo.gl/U2wUg2)
+#10 - Estrutura Léxica
 
-#16 - Tipos de dados e objetos (https://goo.gl/hRgiWK)
+#16 - Tipos de dados e objetos
+
+REVISÕES (AULA 2 E AULA 3)
