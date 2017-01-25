@@ -26,11 +26,29 @@ ex: +'israel' r: NaN (number)
 +       //serve pra somar e também pra concatenar
 3 + '3' //sempre que somo string com number, o JS vai entender que eu quero fazer uma concatenação e não uma soma
 ()
-a++     //is the equivalent of i = i + 1;
+a++     //is the equivalent of i = i + 1; adiciona e atribui um novo valor
 b--     //is the equivalent of i = i - 1;
 
-#10 - Estrutura Léxica
+#10 - Estrutura Léxica https://goo.gl/1ub2er
+
+O que eu posso e o que eu não posso escrever ao criar programas usando JS?
+- Case Sensitive
+- Comentários: //de linha /*de bloco*/
+- Literais: algo que já existe dentro da linguagem
+- Identificadores: nomes de variáveis (_ ou $)
 
 #16 - Tipos de dados e objetos
 
-REVISÕES (AULA 2 E AULA 3)
+- Tipos Primitivos (number, string, boolean, null e undefined) 
+- Tipo de Objeto (todo o resto)
+- Funções são objetos de primeira classe no JS
+- Objeto: conjunto de propriedades que devem receber uma propriedade e um valor. A propriedade de um objeto pode receber uma outro objeto (function).
+
+#17 - Métodos de objeto
+
+- POO: os objetos tem definições, propriedades, e também executam ações. Essas ações são os métodos dos objetos.
+- Da mesma forma que acesso uma determinada propriedade, também atribuo um valor a ele, exemplo: propriedade.value = 'value'.
+
+REVISÕES (AULA 2 & AULA 3)
+
+ASSISTIR (AULA 4 & AULA 5)

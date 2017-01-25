@@ -34,6 +34,7 @@ const regex = new RegExp(wordToMatch, 'gi');
 .lenght
 - Qual a diferença entre null e undefined?
 O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
+Com o null (ausência de valor), porém é necessário atribuir ele a uma variável. E o undefined acontece qual uma variável, função ou argumento de função não existe.
 - Qual a representação do número 7 em binário?
 - Qual a diferença de == para ===?
 == compara valor, e === compara valor e tipo.
