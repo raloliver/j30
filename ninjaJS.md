@@ -1,6 +1,6 @@
 *ver desafios e revisões
 
-#4 - Operadores de igualdade e relacionais
+#4 - Operadores de igualdade e relacionais || (Aula #01)
 sempre retorna um boolean
 
 =       //atribuição de valor
@@ -13,13 +13,13 @@ os relacionais são os de sempre (>, <, >=, <=)
 
 javascript faz conversão de tipos, por isso ao comparar (==) duas variáveis, mesmo um sendo string e outra sendo number, ele retorna true.
 
-#8 - Operadores Lógicos (combinam ou invertem valores booleanos)
+#8 - Operadores Lógicos (combinam ou invertem valores booleanos) || (Aula #02)
 
 && (and)    //combina dois valores e retorna um boolean (x === 1 && y === 2)
 || (or)     //se um ou outro valor da comparação retorna true
 ! (not)     //pouco usado, pois sempre vai junto do operador de igualdade
 
-#9 - Operadores Unários
+#9 - Operadores Unários || (Aula #02)
 
 se o valor não foi um número, o operador unário vai tentar converter ele em um, se já for um number, ele não vai fazer absolutamente nada.
 ex: +'israel' r: NaN (number)
@@ -29,7 +29,7 @@ ex: +'israel' r: NaN (number)
 a++     //is the equivalent of i = i + 1; adiciona e atribui um novo valor
 b--     //is the equivalent of i = i - 1;
 
-#10 - Estrutura Léxica https://goo.gl/1ub2er
+#10 - Estrutura Léxica https://goo.gl/1ub2er || (Aula #02)
 
 O que eu posso e o que eu não posso escrever ao criar programas usando JS?
 - Case Sensitive
@@ -37,18 +37,24 @@ O que eu posso e o que eu não posso escrever ao criar programas usando JS?
 - Literais: algo que já existe dentro da linguagem
 - Identificadores: nomes de variáveis (_ ou $)
 
-#16 - Tipos de dados e objetos
+#16 - Tipos de dados e objetos || (Aula #03)
 
 - Tipos Primitivos (number, string, boolean, null e undefined) 
 - Tipo de Objeto (todo o resto)
 - Funções são objetos de primeira classe no JS
 - Objeto: conjunto de propriedades que devem receber uma propriedade e um valor. A propriedade de um objeto pode receber uma outro objeto (function).
 
-#17 - Métodos de objeto
+#17 - Métodos de objeto || (Aula #03)
 
 - POO: os objetos tem definições, propriedades, e também executam ações. Essas ações são os métodos dos objetos.
 - Da mesma forma que acesso uma determinada propriedade, também atribuo um valor a ele, exemplo: propriedade.value = 'value'.
 
+//pendências
 REVISÕES (AULA 2 & AULA 3)
-
 ASSISTIR (AULA 4 & AULA 5)
+
+#36 - Estrutura de repetição While e desafio da semana 6 || (Aula #06)
+https://vimeo.com/album/3378842/video/126757256
+
+#41 - Arrays - método “push()” e Loop “for” || (Aula #07)
+https://vimeo.com/album/3388790/video/127431910

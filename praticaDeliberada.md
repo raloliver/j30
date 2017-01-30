@@ -24,29 +24,30 @@ REVISÕES
 const regex = new RegExp(wordToMatch, 'gi');
 - Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
+
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 
 - Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
 - Como acessar o hardware do aparelho usando apenas javascript.
 - Qual a diferença de uma classe e uma instância?
 - O que é uma promisse?
+- Qual a representação do número 7 em binário?
+- Qual a diferença de microservices para monolítico?
+
 - Qual o método javascript para contar quantos caracteres tem numa string?
 .lenght
 - Qual a diferença entre null e undefined?
 O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
 Com o null (ausência de valor), porém é necessário atribuir ele a uma variável. E o undefined acontece qual uma variável, função ou argumento de função não existe.
-- Qual a representação do número 7 em binário?
 - Qual a diferença de == para ===?
 == compara valor, e === compara valor e tipo.
-- Qual a diferença de microservices para monolítico?
 - Porque usar o += pra fazer append?
 Just as we can build a string over multiple lines out of string literals, we can also append variables to a string using the plus equals (+=) operator.
 - Convert Celsius to Fahrenheit (freecodecamp)?
-
 function convertToF(celsius) {
   var fahrenheit;
   fahrenheit = celsius * 9/5 + 32;
-  fahrenheit = Math.floor(fahrenheit);
+  //fahrenheit = Math.floor(fahrenheit);
   return fahrenheit;
 }
 convertToF(30);
