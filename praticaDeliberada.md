@@ -19,9 +19,9 @@ REVISÕES
 - Todos os tipos de Validação de formulário em javascript
 - Math: treinar mais esse método.
 - append e after: Ver mais sobre esses métodos.
+- Qual a diferença do JIT, JS Core e V8 Chrome? (ver mais sobre o Gibbon do Netflix) React, React Native & Redux: https://goo.gl/1MM4RW // https://facebook.github.io/immutable-js/
+Em resumo: aprenda linguagem funcional.
 - Methods: filter, map, sort and reduce. O que o ".join" faz no ".map"?
-- Como colocar uma variável numa experessão regular?
-const regex = new RegExp(wordToMatch, 'gi');
 - Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
 
@@ -39,6 +39,11 @@ const regex = new RegExp(wordToMatch, 'gi');
 - Qual a diferença entre null e undefined?
 O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
 Com o null (ausência de valor), porém é necessário atribuir ele a uma variável. E o undefined acontece qual uma variável, função ou argumento de função não existe.
+<<<<<<< HEAD
+=======
+- Como colocar uma variável numa experessão regular?
+const regex = new RegExp(wordToMatch, 'gi');
+>>>>>>> bee583792a4ed5e21d174444b68f8bfd11559d85
 - Qual a diferença de == para ===?
 == compara valor, e === compara valor e tipo.
 - Porque usar o += pra fazer append?
