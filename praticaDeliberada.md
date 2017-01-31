@@ -1,4 +1,5 @@
 PLAYGROUND (usar Skeuomorphism)
+- Como encontrar o % com base num número global e num número secundário (X/Y)*100. Usar o Math e lembrar do floor.
 - EX: crie um player de video completo apenas com JS (como um log de play/pause/stop e integrado ao Google Drive).
 - Criar um relógio analógico tipo do Pebble com temperatura e data. 
 - Crie um mockup de cartão de crédito igualzinho ao um origianl, só que com um validador genérico e os locais de cada item, trocando a depender da bandeira.
