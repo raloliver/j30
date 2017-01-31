@@ -49,12 +49,66 @@ O que eu posso e o que eu não posso escrever ao criar programas usando JS?
 - POO: os objetos tem definições, propriedades, e também executam ações. Essas ações são os métodos dos objetos.
 - Da mesma forma que acesso uma determinada propriedade, também atribuo um valor a ele, exemplo: propriedade.value = 'value'.
 
-//pendências
-REVISÕES (AULA 2 & AULA 3)
-ASSISTIR (AULA 4 & AULA 5)
+#21 - Truthy e Falsy || (Aula #04)
 
-#36 - Estrutura de repetição While e desafio da semana 6 || (Aula #06)
-https://vimeo.com/album/3378842/video/126757256
+- Truthy: tudo que é representado por true (boolean)
+todo o resto
+- Falsy: ao converter pra boolean it's false
+false, undefined, null, NaN, 0, -0, '' ou ""
+- Qual a representação booleana de determinado valor sem utilizar o if?
+!!
+
+#22 - Condicional Ternário || (Aula #04)
+
+- https://vimeo.com/album/3345376/video/124781198
+
+#23 - Escopo de variáveis e funções || (Aula #04)
+
+- https://vimeo.com/album/3345376/video/124779960
+
+#35 - Operador virgula e estrutura condicional switch || (Aula #06)
+
+- A vírgula separ algumas instruções e as une em algumas expressões.
+Ex: 
+var a, b = 2, c;
+function myFunc() {
+    var x = 0;
+    return (x += 1,x);
+    //return ++x;
+}
+- O javascript retorna apenas um valor e no exemplo acima, ele atribui 1 ao valor de x e retorna x.
+- switch: case utiliza o "restrict equal" (===); Atenção ao "break" ao utilizar o switch;
+- Comparação de switch com if:
+switch (x) {
+    case y:
+    //
+    break;
+    case z:
+    //
+    break;
+    default:
+    //
+}
+if (x === 1) {
+        //
+    } else if (x === 2){
+        //
+    } else {
+        //
+    }
+}
+
+#36 - Estrutura de repetição While || (Aula #06)
+
+- Contador regressivo:
+var contador = 10;
+while (contador > 0) {
+    console.log(contador--);
+}
 
 #41 - Arrays - método “push()” e Loop “for” || (Aula #07)
-https://vimeo.com/album/3388790/video/127431910
+
+- https://vimeo.com/album/3388790/video/127431910
+
+//pendências
+REVISÕES

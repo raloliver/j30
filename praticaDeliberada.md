@@ -6,6 +6,7 @@ PLAYGROUND (usar Skeuomorphism)
 - Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
 - Let, Var e Const, o que são e quais as diferenças? *Ofereça exemplos práticos.
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
+- Crie todos os exemplos de páginas utilizadas no leadlovers apenas usando JS (countdown, share social content, exit popup, popup, video on bottom)
 - Methods: filter, map, sort and reduce. *Ofereça exemplos de como usar "Arrows functions" with this methods.
 $this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
 .addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
