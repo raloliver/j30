@@ -60,11 +60,19 @@ false, undefined, null, NaN, 0, -0, '' ou ""
 
 #22 - Condicional Ternário || (Aula #04)
 
-- https://vimeo.com/album/3345376/video/124781198
+- substitui o if com a seguint fórmula: 
+condição /*pergunta*/ ? true /*afirmativa*/ : false /*negativa*/;
+- geralmente utilizado em instruções menores
+- os valores truthy e falsy funcionam bem
 
 #23 - Escopo de variáveis e funções || (Aula #04)
 
-- https://vimeo.com/album/3345376/video/124779960
+- Escopo: local onde você declara uma variável.
+- Global: variável declarada fora de uma função. E é um erro de design da linguagem.
+- Local: variável criada dentro de uma função. Function cria escopo local.
+- Garbage Collection: /*https://goo.gl/ZWtlKr*/
+- Sempre use var para declarar uma variável, pois o JS não vai conseguir realizar o Garbage Collection por que a variável se torna global logo após a chamada da função na qual ela está inserida.
+- Os argumentos de funções também são local.
 
 #35 - Operador virgula e estrutura condicional switch || (Aula #06)
 
