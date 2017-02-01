@@ -114,9 +114,38 @@ while (contador > 0) {
     console.log(contador--);
 }
 
+#39 - O operador módulo || (Aula #07)
+
+- Retorna o resto da divisão (inteiro) de dois operandos.
+- Imprima apenas os números pares:
+for (num = 1; num <= 20; num++) {
+    num % 2 === 0 ? console.log(num) : '';
+}
+
+#40 - Arrays - a propriedade length || (Aula #07)
+
+- Arrays na verdade são objetos disfarçados.
+- E como objetos eles têm propriedades e métodos.
+- .length: é possível...
+contar a quantidade de itens de um array
+
+
 #41 - Arrays - método “push()” e Loop “for” || (Aula #07)
 
-- https://vimeo.com/album/3388790/video/127431910
+- .push(): adicionar um item no final do array
+- Não é sustentável adicionar um novo item no array manualmente, da até pra criar uma nova variável com o item adicionado ou removido do array.
+- Inclusive é possível passar função por parâmetro (programação funcional) e adicionar essa função dentro do array, invocar esse array com base no índice e passar os argumentos.
+list.push(function calc(x, y){ return x + y});
+- For e While tem a mesma intenção apesar da sintaxe diferente.
+for (init, condition, final-expression)
+for (var oneDigit = 1, twoDigits = 0; oneDigit <= 9; oneDigit++) {
+    console.log(oneDigit);
+    console.log(twoDigits += 10);
+}
+
+#44 - A importância de nomear funções || (Aula #08)
+
+- https://vimeo.com/album/3398398
 
 //pendências
-REVISÕES
+REVISÕES: final de semana
