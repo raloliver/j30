@@ -49,12 +49,103 @@ O que eu posso e o que eu não posso escrever ao criar programas usando JS?
 - POO: os objetos tem definições, propriedades, e também executam ações. Essas ações são os métodos dos objetos.
 - Da mesma forma que acesso uma determinada propriedade, também atribuo um valor a ele, exemplo: propriedade.value = 'value'.
 
-//pendências
-REVISÕES (AULA 2 & AULA 3)
-ASSISTIR (AULA 4 & AULA 5)
+#21 - Truthy e Falsy || (Aula #04)
 
-#36 - Estrutura de repetição While e desafio da semana 6 || (Aula #06)
-https://vimeo.com/album/3378842/video/126757256
+- Truthy: tudo que é representado por true (boolean)
+todo o resto
+- Falsy: ao converter pra boolean it's false
+false, undefined, null, NaN, 0, -0, '' ou ""
+- Qual a representação booleana de determinado valor sem utilizar o if?
+!!
+
+#22 - Condicional Ternário || (Aula #04)
+
+- substitui o if com a seguint fórmula: 
+condição /*pergunta*/ ? true /*afirmativa*/ : false /*negativa*/;
+- geralmente utilizado em instruções menores
+- os valores truthy e falsy funcionam bem
+
+#23 - Escopo de variáveis e funções || (Aula #04)
+
+- Escopo: local onde você declara uma variável.
+- Global: variável declarada fora de uma função. E é um erro de design da linguagem.
+- Local: variável criada dentro de uma função. Function cria escopo local.
+- Garbage Collection: /*https://goo.gl/ZWtlKr*/
+- Sempre use var para declarar uma variável, pois o JS não vai conseguir realizar o Garbage Collection por que a variável se torna global logo após a chamada da função na qual ela está inserida.
+- Os argumentos de funções também são local.
+
+#35 - Operador virgula e estrutura condicional switch || (Aula #06)
+
+- A vírgula separ algumas instruções e as une em algumas expressões.
+Ex: 
+var a, b = 2, c;
+function myFunc() {
+    var x = 0;
+    return (x += 1,x);
+    //return ++x;
+}
+- O javascript retorna apenas um valor e no exemplo acima, ele atribui 1 ao valor de x e retorna x.
+- switch: case utiliza o "restrict equal" (===); Atenção ao "break" ao utilizar o switch;
+- Comparação de switch com if:
+switch (x) {
+    case y:
+    //
+    break;
+    case z:
+    //
+    break;
+    default:
+    //
+}
+if (x === 1) {
+        //
+    } else if (x === 2){
+        //
+    } else {
+        //
+    }
+}
+
+#36 - Estrutura de repetição While || (Aula #06)
+
+- Contador regressivo:
+var contador = 10;
+while (contador > 0) {
+    console.log(contador--);
+}
+
+#39 - O operador módulo || (Aula #07)
+
+- Retorna o resto da divisão (inteiro) de dois operandos.
+- Imprima apenas os números pares:
+for (num = 1; num <= 20; num++) {
+    num % 2 === 0 ? console.log(num) : '';
+}
+
+#40 - Arrays - a propriedade length || (Aula #07)
+
+- Arrays na verdade são objetos disfarçados.
+- E como objetos eles têm propriedades e métodos.
+- .length: é possível...
+contar a quantidade de itens de um array
+
 
 #41 - Arrays - método “push()” e Loop “for” || (Aula #07)
-https://vimeo.com/album/3388790/video/127431910
+
+- .push(): adicionar um item no final do array
+- Não é sustentável adicionar um novo item no array manualmente, da até pra criar uma nova variável com o item adicionado ou removido do array.
+- Inclusive é possível passar função por parâmetro (programação funcional) e adicionar essa função dentro do array, invocar esse array com base no índice e passar os argumentos.
+list.push(function calc(x, y){ return x + y});
+- For e While tem a mesma intenção apesar da sintaxe diferente.
+for (init, condition, final-expression)
+for (var oneDigit = 1, twoDigits = 0; oneDigit <= 9; oneDigit++) {
+    console.log(oneDigit);
+    console.log(twoDigits += 10);
+}
+
+#44 - A importância de nomear funções || (Aula #08)
+
+- https://vimeo.com/album/3398398
+
+//pendências
+REVISÕES: final de semana

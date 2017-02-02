@@ -90,3 +90,8 @@ No ES6 é possível, através spread in to a function ou num push por exemplo.
 Novamente vemos o uso do filter aqui (aprenda mais sobre essa parada por favor).
 .addEventListener('change') || ('keyup'); // no input, ao trocar o valor, do it something!!!
 Listener: get your data first!!!
+
+Lesson 7: 07 - Array Cardio Day 2
+.some, .every, .find, .findIndex (aprender mais sobre esses métodos)
+O que é o método Reduce? Exemplo: ao invés de remover um item de uma lista, crie um novo array com determinado item removido utilizando .slice.
+Porque usar as {} dentro da chamada de uma função? Exemplo: console.log({function})
