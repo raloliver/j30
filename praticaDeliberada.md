@@ -26,6 +26,10 @@ Em resumo: aprenda linguagem funcional.
 - Methods: filter, map, sort and reduce. O que o ".join" faz no ".map"?
 - Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
+- HTML DOM documentElement Property: explique o trecho de código abaixo
+const rootEl = document.documentElement;  
+rootEl.style.setProperty('--theme-colour', 'plum');
+https://vimeo.com/194815985
 
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 
