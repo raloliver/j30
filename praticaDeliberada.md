@@ -1,4 +1,5 @@
 PLAYGROUND (usar Skeuomorphism)
+- Como encontrar o % com base num número global e num número secundário (X/Y)*100. Usar o Math e lembrar do floor.
 - EX: crie um player de video completo apenas com JS (como um log de play/pause/stop e integrado ao Google Drive).
 - Criar um relógio analógico tipo do Pebble com temperatura e data. 
 - Criar um baú da felicidade "rodando" com html e css.
@@ -28,6 +29,14 @@ Em resumo: aprenda linguagem funcional.
 - Methods: filter, map, sort and reduce. O que o ".join" faz no ".map"?
 - Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
+<<<<<<< HEAD
+=======
+- HTML DOM documentElement Property: explique o trecho de código abaixo
+const rootEl = document.documentElement;  
+rootEl.style.setProperty('--theme-colour', 'plum');
+https://vimeo.com/194815985
+
+>>>>>>> b4531ecc4a9596a794617615c08906317d834ebb
 - Service Workers: que porra é essa? 
 - Push notification com o site fechado? 
 - Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
