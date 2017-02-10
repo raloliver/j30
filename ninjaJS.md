@@ -126,9 +126,15 @@ for (num = 1; num <= 20; num++) {
 
 - Arrays na verdade são objetos disfarçados.
 - E como objetos eles têm propriedades e métodos.
-- .length: é possível...
-contar a quantidade de itens de um array
-
+- .length: é possível contar a quantidade de itens de um array e em conjunto com alguma estrutura de repetição 
+var aaarr = ['Mr Elliot', null, true, {name: 'MrRobot'}, function () {}]
+var all = aaarr.length;
+while (all > 0) {
+    console.log (aaarr [ -- all]);
+    if (all === 3)  {
+        console.log (aaarr [all].name);
+    }
+}
 
 #41 - Arrays - método “push()” e Loop “for” || (Aula #07)
 
