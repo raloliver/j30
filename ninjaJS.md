@@ -148,6 +148,17 @@ for (var oneDigit = 1, twoDigits = 0; oneDigit <= 9; oneDigit++) {
     console.log(oneDigit);
     console.log(twoDigits += 10);
 }
+#43 - Revisão Desafio semana #7
+
+- função declarativa não precisa do ; no final, apenas se você atribuir essa função a uma variável, ai sim se faz necessário o ; no final.
+- Número pares entre 10 e 20
+var contador = 10;
+while (contador <= 20) {
+    //contador %2 !== 0; //verificar impares
+    contador %2 === 0 ? console.log (contador) : ''; //com o counter aqui nosso console vai travar por conta de adicionar um a cada entrada e ignorar o segundo parametro
+    contador++;
+}
+- quanto menos "else" melhor
 
 #44 - A importância de nomear funções || (Aula #08)
 
