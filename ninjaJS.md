@@ -162,7 +162,16 @@ while (contador <= 20) {
 
 #44 - A importância de nomear funções || (Aula #08)
 
-- https://vimeo.com/album/3398398
+- Parte mais importantes da linguagem: funções e objetos
+- Ao nomear uma função, você facilita o debug
+- As funções tem propriedades e métodos inbutidos. (ex: func.name)
+- A função sem invocar () é um objeto. () é uma das formas de invocar uma função
+- O que é uma função literal no JS?
+
+
+#45 - A importância de nomear funções || (Aula #08)
+
+- 
 
 //pendências
-REVISÕES: final de semana
+DESAFIOS & REVISÕES: aos domingos (Aula 1 a Aula 10)

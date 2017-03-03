@@ -15,6 +15,9 @@ $this.classList.toogle('active'); // Pratica deliberada e mais métodos de class
 .addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
 - localStorage.setItem(id): verificar mais métodos do localStorage
 - Converter timing do vídeo de segundo para hh:mm:ss e do volume para %.
+- Desafio: https://github.com/itflex/vaga_dev_frontend/blob/master/README.md
+- Desafio: https://github.com/estevanmaito/challenge-accepted
+- Desafio: http://gabrielfaucon.com/work/cis.html
 
 REVISÕES
 - NinjaJS: todas as revisões de aula.
@@ -29,16 +32,13 @@ Em resumo: aprenda linguagem funcional.
 - Methods: filter, map, sort and reduce. O que o ".join" faz no ".map"?
 - Praticar mais new RegExp!
 - Operador Condicional (ternário): praticar.
-<<<<<<< HEAD
-=======
 - HTML DOM documentElement Property: explique o trecho de código abaixo
-const rootEl = document.documentElement;  
+const rootEl = document.documentElement;
 rootEl.style.setProperty('--theme-colour', 'plum');
 https://vimeo.com/194815985
 
->>>>>>> b4531ecc4a9596a794617615c08906317d834ebb
-- Service Workers: que porra é essa? 
-- Push notification com o site fechado? 
+- Service Workers: que porra é essa?
+- Push notification com o site fechado?
 - Como fazer o app funcionar offline e depois subir as informações ao acessar a internet?
 - Como acessar o hardware do aparelho usando apenas javascript.
 - Qual a diferença de uma classe e uma instância?
@@ -56,11 +56,8 @@ console.log(b);
 - Qual a diferença entre null e undefined?
 O JS sempre deve retornar algo, e nesse caso do null e undefined, é um erro de design da linguagem, não faz tanta diferença um do outro, mas você pode tratar esses valores indefinidos de maneiras diferentes.
 Com o null (ausência de valor), porém é necessário atribuir ele a uma variável. E o undefined acontece qual uma variável, função ou argumento de função não existe.
-<<<<<<< HEAD
-=======
 - Como colocar uma variável numa experessão regular?
 const regex = new RegExp(wordToMatch, 'gi');
->>>>>>> bee583792a4ed5e21d174444b68f8bfd11559d85
 - Qual a diferença de == para ===?
 == compara valor, e === compara valor e tipo.
 - Porque usar o += pra fazer append?

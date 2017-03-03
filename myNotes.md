@@ -1,4 +1,4 @@
-Lesson 1: 01 - JavaScript Drum Kit
+## Lesson 1: JavaScript Drum Kit
 
 DÚVIDAS
 - Atributo data-*, como funciona?
@@ -20,14 +20,14 @@ Geralmente usado num NodeList de um querySelectorAll.
 
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
 
-Lesson 2: 02 - CSS + JS Clock
+## Lesson 2: CSS + JS Clock
 https://unsplash.it/1500/1000?image=881&blur=50
 
 - Quais as possibilidades com essas duas propriedades: transform-origin, transition-timing-function & transform. *Ofereça exemplos práticos.
 - *Criar um relógio analógico tipo do Pebble com temperatura e data. 
 - Como converter médidas, todos os tipos possíveis. *Ofereça exemplos práticos.
 
-Lesson 3: 03 - Playing with CSS Variables and JS
+## Lesson 3: Playing with CSS Variables and JS
 
 - Update CSS Variables with JS with SASS is not possible.
 
@@ -45,7 +45,7 @@ The :root selector matches the document's root element. In HTML, the root elemen
 
 *codepen
 
-Lesson 4: 04 - Array Cardio Day 1
+## Lesson 4: Array Cardio Day 1
 
 ARRAY PROTOTYPE METHODS
 Methods: filter, map, sort and reduce. *Ofereça exemplos de como usar "Arrows functions" with this methods.
@@ -68,7 +68,7 @@ Como usar const [arg1, arg2]?
 
 - console.table() //show data on table
 
-Lesson 5: 05 - Flex Panels Image (flexbox.io)
+## Lesson 5: Flex Panels Image (flexbox.io)
 - flex: 1; // flex: 1 0 auto;
 - justify-content: center;
 - align-items: center;
@@ -79,7 +79,7 @@ Lesson 5: 05 - Flex Panels Image (flexbox.io)
 $this.classList.toogle('active'); // Pratica deliberada e mais métodos de classList.
 .addEventListener('transitionend', function) // Pratica deliberada e mais métodos de addEventListener.
 
-Lesson 6: 06 - Ajax Type Ahead
+## Lesson 6: Ajax Type Ahead
 
 fetch: nem web API for browser. This methor returns a promisse. 
 fetch(callback).then() // quais as outras propriedades desse método?
@@ -91,7 +91,25 @@ Novamente vemos o uso do filter aqui (aprenda mais sobre essa parada por favor).
 .addEventListener('change') || ('keyup'); // no input, ao trocar o valor, do it something!!!
 Listener: get your data first!!!
 
-Lesson 7: 07 - Array Cardio Day 2
+## Lesson 7: Array Cardio Day 2
 .some, .every, .find, .findIndex (aprender mais sobre esses métodos)
 O que é o método Reduce? Exemplo: ao invés de remover um item de uma lista, crie um novo array com determinado item removido utilizando .slice.
 Porque usar as {} dentro da chamada de uma função? Exemplo: console.log({function})
+
+## Lesson 9: 14 Must Know Dev Tools Tricks
+Para acompanhar um evento, botão direito no elemento "break on" -> "attribute modifications"
+> Interpolação (%s): console.log('Eu me chamo %s', 'Israel')
+> Estilo (%c): console.log ('%c texto grandão, 'font-size: 5em;')
+> Avisos: console.warn('Errou feio')
+> Erro: console.error('Errou rude')
+> Info: console.info('O Brasil é um país imenso')
+> Teste: console.assert(1 === 2, 'Não!')
+> Elementos do DOM: console.dir(let)
+> Agrupar Informações: console.groupCollapsed('the same string') // console.grupoEnd('the same string')
+> Contador: console.count();
+> Tempo de resposta: console.time() // geralmente utilizado numa promise
+> Tabela: console.table();
+> Outros: [Willian Justen](https://willianjusten.com.br/comandos-uteis-do-chrome-devtools/)
+> Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
+
+##
