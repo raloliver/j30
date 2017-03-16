@@ -171,7 +171,35 @@ while (contador <= 20) {
 
 #45 - A importância de nomear funções || (Aula #08)
 
-- 
+- Funções são objetos de primeira classe
+- Tudo que você faz com objetos, você também faz com funções
+function person () {
+    let info = {
+        'name': 'Israel',
+        'age': 31
+    }
+    return info;
+}
+- É possível retornar uma função a partir de uma função
+function mainAdd (a) {
+    return function (b) {
+        return a + b;
+    };
+}
+var add2 = mainAdd(2);
+console.log(add2(0));
+console.log(mainAdd(29)(31));
+- Assim como é possível passar variavel como parâmetro de função, é possível passar funções como parâmetro de função
+let product = {
+    name  : 'celular',
+    color : 'prata'
+}
+function getProduct(product) {
+    return product;
+}
+console.log(getProduct(product.color))
+
+#51 - Escopo de Funções || (Aula #09)
 
 //pendências
 DESAFIOS & REVISÕES: aos domingos (Aula 1 a Aula 10)
