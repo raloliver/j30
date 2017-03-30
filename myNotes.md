@@ -110,6 +110,10 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 > Tempo de resposta: console.time() // geralmente utilizado numa promise
 > Tabela: console.table();
 > Outros: [Willian Justen](https://willianjusten.com.br/comandos-uteis-do-chrome-devtools/)
+<<<<<<< HEAD
 > Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
 
 ## 
+=======
+> Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
+>>>>>>> da6bd17e6803a62343ff0ac8bb2c3b8eec801188

@@ -14,6 +14,10 @@ TODOS ESSES DADOS PODEM SER SALVOS NUM BANCO DE DADOS E ISSO DEVE GERAR ESTATÍT
 .oncanplay: coleta o momento em que o vídeo é carregado
 .playbackRate: aumenta ou diminui a velocidade do vídeo
 
+```
+document.querySelector('video').playbackRate = 1.8;
+```
+
 localStorage.setItem(id) and localStorage.getItem(id)
 JSON.stringify: transforma o objeto numa string, e prepara os dados para serem salvos.
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
