@@ -112,4 +112,4 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 > Outros: [Willian Justen](https://willianjusten.com.br/comandos-uteis-do-chrome-devtools/)
 > Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
 
-##
+## 
