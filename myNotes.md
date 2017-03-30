@@ -20,6 +20,8 @@ Geralmente usado num NodeList de um querySelectorAll.
 
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
 
+- Qual a difereça entre métodos, operadores, classes e construtores?
+
 ## Lesson 2: CSS + JS Clock
 https://unsplash.it/1500/1000?image=881&blur=50
 
@@ -110,10 +112,4 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 > Tempo de resposta: console.time() // geralmente utilizado numa promise
 > Tabela: console.table();
 > Outros: [Willian Justen](https://willianjusten.com.br/comandos-uteis-do-chrome-devtools/)
-<<<<<<< HEAD
 > Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
-
-## 
-=======
-> Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
->>>>>>> da6bd17e6803a62343ff0ac8bb2c3b8eec801188
