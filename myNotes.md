@@ -20,6 +20,8 @@ Geralmente usado num NodeList de um querySelectorAll.
 
 - Qual a diferença do loop com for e loop com while? E se a condição do loop não for verdadeira? *Ofereça exemplos práticos.
 
+- Qual a difereça entre métodos, operadores, classes e construtores?
+
 ## Lesson 2: CSS + JS Clock
 https://unsplash.it/1500/1000?image=881&blur=50
 
@@ -128,4 +130,3 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 1. Get our elements
 1. Build out functions
 1. Hook up the event listeners
-
