@@ -69,6 +69,7 @@ Como usar const [arg1, arg2]?
 - console.table() //show data on table
 
 ## Lesson 5: Flex Panels Image (flexbox.io)
+
 - flex: 1; // flex: 1 0 auto;
 - justify-content: center;
 - align-items: center;
@@ -92,11 +93,13 @@ Novamente vemos o uso do filter aqui (aprenda mais sobre essa parada por favor).
 Listener: get your data first!!!
 
 ## Lesson 7: Array Cardio Day 2
+
 .some, .every, .find, .findIndex (aprender mais sobre esses métodos)
 O que é o método Reduce? Exemplo: ao invés de remover um item de uma lista, crie um novo array com determinado item removido utilizando .slice.
 Porque usar as {} dentro da chamada de uma função? Exemplo: console.log({function})
 
 ## Lesson 9: 14 Must Know Dev Tools Tricks
+
 Para acompanhar um evento, botão direito no elemento "break on" -> "attribute modifications"
 > Interpolação (%s): console.log('Eu me chamo %s', 'Israel')
 > Estilo (%c): console.log ('%c texto grandão, 'font-size: 5em;')
@@ -111,3 +114,18 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 > Tabela: console.table();
 > Outros: [Willian Justen](https://willianjusten.com.br/comandos-uteis-do-chrome-devtools/)
 > Outros: [letanure](http://letanure.github.io/blog/2013/08/21/usando-o-console-do-chrome/)
+
+## Lesson 10: Hold Shift to Check Multiple Checkboxes
+
+> ```javascript
+    .addEventListener('change', function(){})
+  ´´´
+- .shiftKey: A Boolean, indicating whether the "SHIFT" key was pressed when the key event occured. (true - The shift key was pressed || false - The shift key was not pressed)
+- .checked: Specifies whether a checkbox should be checked or not. (true - The checkbox is checked || false - Default. The checkbox is not checked)
+
+## Lesson 11: Custom HTML5 Video Player
+
+1. Get our elements
+1. Build out functions
+1. Hook up the event listeners
+
