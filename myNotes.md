@@ -128,5 +128,33 @@ Para acompanhar um evento, botão direito no elemento "break on" -> "attribute m
 ## Lesson 11: Custom HTML5 Video Player
 
 1. Get our elements
+    - Use [] to select attributes from a element.
+    ```javascript
+        const skipButtons = player.querySelectorAll(['data-skip']);
+    ```
 1. Build out functions
+    - .paused:  Boolean, returns true if the video is paused. Otherwise it returns false
+    - .offsetX: The offsetX read-only property of the MouseEvent interface provides the offset in the X coordinate of the mouse pointer between that event and the padding edge of the target node.
+    - .offsetWidth: The offsetWidth property returns the viewable width of an element in pixels, including padding, border and scrollbar, but not the margin.
+    - video.duration: The duration property returns the length of the current audio/video, in seconds.
+    ```javascript
+        function togglePlay() {
+            const method = video.paused ? 'play' : 'pause';
+            video[method]();
+        }
+
+        function skip() {
+            video.currentTime += parseFloat(this.dataset.skip)
+        }
+
+        function progressTime(e) {
+            const progressMoment = (e.offsetX / progress.offsetWidth) * video.duration;
+            video.currentTime = progressMoment;
+        }
+    ```
 1. Hook up the event listeners
+    - .addEventListener: change, mousemove, timeupdate
+    ```javascript
+        video.addEventListener('click', togglePlay);
+    ```
+    
