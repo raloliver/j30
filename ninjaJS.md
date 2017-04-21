@@ -352,4 +352,98 @@ typeof null; // 'object'
 
 ### 64 - Laços (loops) || (Aula #11)
 
->Pendências: DESAFIOS & REVISÕES (Aula 1 a Aula 10)
+- Outros tipos de loops `do` , `while` e `for in`.
+- `while`: sempre verifica o valor antes de entrar no laço
+```javascript
+var counter = 1; // try var counter = 10
+while(counter < 10) {
+    console.log (counter ++);
+}
+console.log('counter não é mais menor que 10');
+```
+- `do / while`: precisa do `;` no final. Primeiro ele entra na instrução e só depois ele verifica se ela é verdadeira ou não.
+```javascript
+var counter = 1;
+do {
+    console.log (counter ++);
+} while (counter < 10);
+```
+- `for in`: serve para percorrer propriedades de um objeto. Mais lento que o for comum, favor usar com cautela. Para coletar aos valores da propriedades, pasta realizar a consulta no formato de array.
+```javascript
+var monitor = {
+    marca: 'LG',
+    modelo: 'E2360',
+    tamanho: 23
+}
+
+for( let prop in monitor) {
+    console.log(prop);
+    console.log(car[prop]);
+}
+
+//outra forma de usar o in
+
+console.log('led' in monitor) //false
+```
+
+### 65 - Saltos || (Aula #11)
+
+- `return` : sempre utilizado dentro de funções, veja abaixo um exemplo de `return` como salto. 
+
+```javascript
+function returnSalto () {
+    let number = 5;
+    if (number === 10) {
+        return true;
+    }
+    return false;
+}
+
+console.log (returnSalto()); //false
+```
+- Repare que se o valor for verdadeiro, ele para instrução e salta o restante da função. Com isso torna-se desnecessário o `else`.
+
+```javascript
+function returnSalto () {
+    let number = 10;
+    if (number === 10) {
+        return true;
+    }
+    let userName = 'raloliver';
+    let yearBirth = 1985;
+    return userName + ' ' + yearBirth;
+}
+
+console.log (returnSalto()); //true
+```
+- `break` : serve para sair da instrução, inclusive em outras instruções não apenas no switch. Normalmente utilizando no switch e em alguns casos em outros laços, como o for. Utilizado como salto para parar algumas instruções.
+
+```javascript
+for (let i = 0; i < 10; i ++) {
+    if (i === 5) {
+        break;
+    }
+    console.log(i); // 0,1,2,3,4
+}
+
+```
+- `continue` : bem similar ao break, mas ao invés de sair da instrução, ele continua na próxima instrução válida. Dentro um `for` ele salta um estado.
+
+```javascript
+var arr = [1,2,3,4,5,6,7,8,9,10];
+for (let i = 0; i < 10; i ++) {
+    if (i === 5) {
+        continue;
+    }
+    console.log(i); // 0,1,2,3,4,6,7,8,9
+}
+
+```
+
+
+
+
+
+
+
+>Pendências: DESAFIOS & REVISÕES
