@@ -440,10 +440,74 @@ for (let i = 0; i < 10; i ++) {
 
 ```
 
+### 69 - Criação de Objetos || (Aula #12)
+
+- Objetos são mutáveis e manipulados por referência: nada muda se o valor das propriedades são as mesmas e sim se a instância do objeto na memória é a mesma.
+- É possível adicionar e/ou editar propriedades de um objeto.
+- É possível deletar a propriedade de um objeto chamando o método `delete`
+- Para criar objetos você tem as seguintes opções:
+    1. Literais: obj = {}
+    1. Como construtor (new): mais rápido criar um objeto literal do que criar com um construtor
+    1. Com Object.create()
+- Object.prototype: todos os objetos criados herdan do `Object`, exemplo: Array, Date, RegExp, String, todos eles herdam do `Object.prototype` (encadeamento de protótipos). Ele é o pai da herança dos objetos.
+- 
 
 
+### 70 - Criação de Objetos || (Aula #12)
+
+```javascript
+var obj = { x: 1, y: 2};
+var obj2 = Object.create(obj);
+obj2.x // 1
+obj2.x = 'objX'
+obj2.x // 'objX'
+obj.x // 1
+
+obj = Object.create({});
+obj.toString() // ´[object Object]´
+```
+- Exemplos de métodos do `Object.prototype`:
+    - .toString()
+- É possível herdar valores padrões de propriedades usando o `Object.create`, assim podemos entender heranças no javascript
+
+```javascript
+obj = {}
+obj.y = 2
+obj.x = 1
+obj2 = {}
+obj2 = Object.create(obj)
+obj2 // {}
+obj2.y // 2
+obj2.x // 1
+obj3 = Object.create(obj2)
+```
+
+- Herança com Object.create() utilizando o for in para acessar as propriedades herdadas
+
+```javascript
+for (var prop in obj2) {
+    console.log(prop) // x
+}
+```
+
+- Mas como acessar as propriedades não herdadas? Utilize o método `hasOwnProperty`
+
+```javascript
+obj.hasOwnProperty('x') // true
+obj3.hasOwnProperty('x') // false
+```
+
+```javascript
+for (var prop in obj3) {
+    if (obj3.hasOwnProperty(prop)) {
+        console.log(prop) // undefined
+    }
+}
+```
 
 
+### 71 - Métodos de objeto || (Aula #12)
 
+### 72 -Arrays - Métodos || (Aula #12)
 
 >Pendências: DESAFIOS & REVISÕES
