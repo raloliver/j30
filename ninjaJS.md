@@ -508,6 +508,40 @@ for (var prop in obj3) {
 
 ### 71 - Métodos de objeto || (Aula #12)
 
-### 72 -Arrays - Métodos || (Aula #12)
+- Object.keys(): retornar um array com as propriedades do objeto. E como um array, ele possui as devidas propriedades.
+- isPrototypeOf(): verificar se o objeto é protótipo de um outro objeto. Verifica a herança de protótipos. O protótipo é sempre o objeto principal.
+- JSON.stringify(obj): converte o objeto numa string. Mais detalhes na documentação oficial http://www.json.org/
+- JSON.parse(str): transforma a string num objeto.
+- Recordar é viver: existe a opção de adicionar novos itens num array a partir do índice, exemplo:
+
+```javascript
+let items = [];
+items[0] = 1;
+items[10] = 10;
+console.log(items) // [1,,,,,,,,,10]
+```
+
+- Para adicionar itens ao final do array, basta usar o método `.push()`, exemplo: `items.push('eleven')`.
+- Ainda é possível remover itens num array, usando o método `.pop()` para remover do final. Com o `.pop` também é possível retornar o valor removido, exemplo:
+
+```javascript
+let items = [];
+items[0] = 1;
+items[10] = 10;
+console.log(items) // [1,,,,,,,,,10]
+
+let ten = items.pop()
+console.log(ten) // 10
+```
+
+### 72 - Arrays - Métodos || (Aula #12)
+
+- Método `.join()` que uni os valores de um determinado array, separando-os por vírgula. Ele também aceita um parâmetro, que é o separador dos itens do array. `items.join(', ')`.
+- Método `.reverse()` ele inverte a ordem dos arrays, ele modifica o array de maneira definitiva.
+- Método `.sort()` ele ordena os itens por ordem alfabética, ele modifica o array de maneira definitiva.
+- Uma boa prática é sempre atribuir o array modificado a um novo objeto.
+
+
+### 73 - (Aula #13)
 
 >Pendências: DESAFIOS & REVISÕES
